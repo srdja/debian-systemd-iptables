@@ -1,4 +1,4 @@
-#### Debian package of Iptables service for systemd
+#### Unofficial Debian package of systemd iptables service
 
 Based on an Arch Linux [package](https://www.archlinux.org/packages/core/x86_64/iptables/)
 
