@@ -2,10 +2,11 @@
 
 Based on an Arch Linux [package](https://www.archlinux.org/packages/core/x86_64/iptables/)
 
+You can download the `.deb` package from  [here](https://github.com/srdja/debian-systemd-iptables/releases/download/1.0.0/systemd-iptables_1.0-0.deb) or you can package it manually.
 
 ### Building the package
 
-`dpkg-deb --build systemd-iptables_1.0-0`
+run `dpkg-deb --build systemd-iptables_1.0-0` to build a `.deb` package
 
 ### Installing
 
@@ -17,4 +18,4 @@ Based on an Arch Linux [package](https://www.archlinux.org/packages/core/x86_64/
 
 
 
-Iptables rules should be saved to `/etc/iptables/iptables.rules` or `/etc/iptables/ip6tables.rules`
+NOTE: Iptables rules should be saved to `/etc/iptables/iptables.rules` or `/etc/iptables/ip6tables.rules`
