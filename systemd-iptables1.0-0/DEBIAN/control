@@ -1,0 +1,9 @@
+Package: systemd-iptables
+Version: 1.0-0
+Section: base
+Priority: optional
+Architecture: all
+Depends: systemd, iptables
+Maintainer: Srđan Panić <i@srdja.me>
+Description: Iptables Service for systemd
+ Lets you manage iptables through systemd
