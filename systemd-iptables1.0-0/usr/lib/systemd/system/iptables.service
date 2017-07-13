@@ -5,7 +5,7 @@ Description=Packet Filtering Framework
 Type=oneshot
 ExecStart=/sbin/iptables-restore /etc/iptables/iptables.rules
 ExecReload=/sbin/iptables-restore /etc/iptables/iptables.rules
-ExecStop=/usr/lib/systemd/scripts/iptables-flush 6
+ExecStop=/usr/lib/systemd/scripts/iptables-flush
 RemainAfterExit=yes
 
 [Install]
