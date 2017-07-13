@@ -2,7 +2,7 @@
 
 Based on an Arch Linux [package](https://www.archlinux.org/packages/core/x86_64/iptables/)
 
-You can download the `.deb` package from  [here](https://github.com/srdja/debian-systemd-iptables/releases/download/1.0.0/systemd-iptables_1.1-0.deb) or you can package it manually.
+You can download the `.deb` package from  [here](https://github.com/srdja/debian-systemd-iptables/releases/download/1.1.0/systemd-iptables1.1-0.deb) or you can package it manually.
 
 ### Building the package
 
@@ -10,7 +10,7 @@ run `dpkg-deb --build systemd-iptables1.1-0` to build a `.deb` package
 
 ### Installing
 
-`sudo dpkg -i systemd-iptables_1.1-0.deb`
+`sudo dpkg -i systemd-iptables1.1-0.deb`
 
 ### Uninstalling
 
