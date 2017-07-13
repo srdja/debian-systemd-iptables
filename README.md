@@ -6,7 +6,7 @@ You can download the `.deb` package from  [here](https://github.com/srdja/debian
 
 ### Building the package
 
-run `dpkg-deb --build systemd-iptables_1.1-0` to build a `.deb` package
+run `dpkg-deb --build systemd-iptables1.1-0` to build a `.deb` package
 
 ### Installing
 
